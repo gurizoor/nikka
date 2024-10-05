@@ -8,4 +8,4 @@ def main(*args):
     #App(app)   
     app.mainloop()
 
-toast('日課',on_click=main)
+toast('日課',on_click=main,duration="long")
